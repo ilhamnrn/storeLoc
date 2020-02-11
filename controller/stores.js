@@ -3,5 +3,5 @@
 //@access Public
 
 exports.getStores = (req, res, next) => {
-    res.send('Hello');
+    res.send('Hello Gan');
 }
