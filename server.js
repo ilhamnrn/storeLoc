@@ -7,7 +7,7 @@ const connectDB = require('./config/db');
 //load env
 dotenv.config({ path: './config/config.env' });
 
-//conn db
+//connect to db
 connectDB();
 
 const app = express();
