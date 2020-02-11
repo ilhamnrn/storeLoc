@@ -1,0 +1,36 @@
+{
+  "name": "storelocator",
+  "version": "1.0.0",
+  "description": "store locator with map box",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilhamnrn/storeLocator.git"
+  },
+  "keywords": [
+    "map box",
+    "mongoose",
+    "nodejs"
+  ],
+  "author": "Anyone",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ilhamnrn/storeLocator/issues"
+  },
+  "homepage": "https://github.com/ilhamnrn/storeLocator#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.8.11",
+    "node-geocoder": "^3.25.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
