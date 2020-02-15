@@ -18,6 +18,9 @@ app.use(express.json());
 
 app.use(cors());
 
+//static files
+app.use(express.static(path.join(__dirname,'public')));
+
 //routes
 app.use('/api/v1/stores', require('./routes/stores'));
 
